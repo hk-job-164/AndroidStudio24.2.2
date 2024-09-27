@@ -17,6 +17,9 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        Log.d("kotlintest", "ログへの出力テスト")
+
+        val human = Human("miyagi", 30, "tohoku")
+        human.say()
+        human.think()
     }
 }
